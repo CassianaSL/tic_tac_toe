@@ -1,0 +1,39 @@
+.maior {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    margin: 0em;
+    font-size: 1.3em;
+}
+
+button {
+    width: 5em;
+    margin: 0.75em;
+}
+
+table {
+    width: 25em;
+    height: 25em;
+}
+
+td {
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.3;
+    background-color: white;
+    border: solid 0.02em;
+    width: 1em;
+    height: 1em;
+}

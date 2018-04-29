@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tic Tae Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <h3>Jogadores:</h3>
+        <div class="container">
+            <label for="x">X</label>
+            <span id="xx">
+                <input type="text" id="x" autofocus>
+            </span>
+        </div>
+        <div class="container">
+            <label for="o">O</label>
+            <span id="oo">
+                <input type="text" id="o" autofocus>
+            </span>
+        </div>
+        <h4>
+            <div>
+                Vitórias:
+                <span id="vx">X</span>
+                <span id="vo">O</span>
+            </div>
+            <div>
+                Empates:
+                <span id="em"></span>
+            </div>
+        </h4>
+        <button id="res">Reset</button>
+        <button id="new">Novo</button>
+        <section class="info table">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
